@@ -1,0 +1,13 @@
+.clock {
+    position: absolute;
+    right: 8px;
+    top: 40px;
+}
+
+.clock span {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}

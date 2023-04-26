@@ -1,0 +1,44 @@
+h2 {
+    padding: 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #111;
+}
+
+.category-btn {
+    margin: 0 auto;
+    padding: 10px 20px !important;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    text-transform: uppercase;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid lightblue !important;
+    transition: background-color .5s ease;
+}
+
+.category-btn:hover {
+    background-color: rgb(211, 228, 234);
+}
+
+.category-btn img {
+    width: 30px;
+}
+
+.list {
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.user-list {
+    max-width: 200px;
+    text-align: left;
+}
